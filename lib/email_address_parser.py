@@ -15,5 +15,5 @@ class EmailAddressParser:
         return sorted(retlist);
         #return list(set(self.emailaddressstr.split(", ")));
 
-parser = EmailAddressParser("john@doe.com, person@somewhere.org, who, what, where, when, why, how");
-print(parser.parse());
+#parser = EmailAddressParser("john@doe.com, person@somewhere.org, who, what, where, when, why, how");
+#print(parser.parse());
